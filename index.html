@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Maisha Islam</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: cursive;
             scroll-behavior: smooth;
         }
 
@@ -35,7 +35,7 @@
             border: 2px solid black;
             opacity: 0.5;
             transition: 0.3s;
-
+            box-shadow: 1px 2px 5px #000000;
         }
 
         .btn-outline:hover {
@@ -82,9 +82,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Maisha Islam<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -97,6 +97,9 @@
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
@@ -104,32 +107,52 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Maisha!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
-                University.</h5>
+            <h5 class="display-5 mx-auto faded text-center">
+                I'm an Information Science & Technology Student at Temple
+                University.
+            </h5>
         </div>
         <div class="row my-4">
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
+            <div class="col my-3">
+                <img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Python" />
+            </div>
+            <div class="col my-3">
+                <img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Angular" />
+            </div>
+            <div class="col my-3">
+                <img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
+                     data-placement="top" title="TypeScript" />
+            </div>
 
-            <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="C#" /></div>
-            <div class="col my-3"><img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Node.js" /></div>
-            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Java" /></div>
+            <div class="col my-3">
+                <img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="C#" />
+            </div>
+            <div class="col my-3">
+                <img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Node.js" />
+            </div>
+            <div class="col my-3">
+                <img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Java" />
+            </div>
 
-            <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="ASP.NET" /></div>           
-                     <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
+            <div class="col my-3">
+                <img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="ASP.NET" />
+            </div>
+            <div class="col my-3">
+                <img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Microsoft SQL Server" />
+            </div> <div class="col my-3">
+                <img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="MongoDB" />
+            </div>
 
         </div>
         <div class="row my-4">
@@ -140,55 +163,46 @@
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
             </div>
             <div class="col">
+                <a href="#portfolio"><button type="button" class="btn btn-outline">Portfolio</button></a>
+            </div>
+            <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
+            <a href="#projects" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Projects"></i>
+            </a>
+        </div>
 
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
+    <div class="container landing d-flex justify-content-center flex-column align-items-left" id="projects">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
         </div>
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
         </div>
-        <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
-        </div>
-        <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
-        </div>
-        <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
-        </div>
-        <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
-        </div>
-        <div class="row w-100">
-            <h5>Query Dating Site</h5>
-        </div>
-        <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
-        </div>
-        <div class="row mt-5 next">
-            <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Courses"></i></a> </div>
+        <h2>PROJECT EXPERIENCE</h2>
+        <h4>Winner - Penn State David Hall Award-APR 2018</h4>
+        ● “Given to the student team who best exemplifies collaboration and innovation across disciplinary areas.”<br>
+        ● Received in part of different backgrounds, cultures, and degrees when competing in the IdeaMakers Challenge<br>
+        <h4>Finalist - IdeaMakers Challenge Penn State StartUp Week-APR 2018 </h4>
+        ● Took part in a competition involved with 20+ students of multiple backgrounds and disciplines<br>
+        ● Built and presented to an audience of entrepreneurs of a prototype of an app which takes advantage of gig economies<br>
+        ● In the creation of this app, surveyed over 100+ people and employed design thinking into final product<br>
+        <h4>Finalist – mHealth Challenge Penn State GEW-NOV 2017</h4>
+        ● Created and presented a prototype of an app and wristband relating to TYPE 1 juvenile diabetes<br>
+        ● Competed amongst 50+ other teams and was one of 6 teams which were finalists<br>
+        ● Collaborated with individuals in 4 disciplines across 3 different colleges<br>
+    </div>
+    <div class="row mt-5 next">
+        <a href="#courses" class="col">
+            <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+               title="Courses"></i>
+        </a>
+    </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
         <div class="row mx-auto">
@@ -197,33 +211,66 @@
         <div class="row mx-auto mb-4">
             <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
         </div>
-        <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
-                <h5>Information Systems Analysis and Design</h5>
-            </div>
-            <div class="col text-center course">
-                <h5>Server-Side Web Application Development</h5>
-            </div>
+    <div class="form-check" >
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            <h5>Information Systems Analysis and Design</h5>
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            <h5>Network Architectures</h5>
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            <h5>Component Based Software Design</h5>
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            <h5>Database Management Systems</h5>
+        </label>
+    </div>
+    </div>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="portfolio">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Portfolio</h4>
         </div>
-        <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
-                <h5>Network Architectures</h5>
-            </div>
-            <div class="col text-center course">
-                <h5>Client-Side Scripting</h5>
-            </div>
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center mb-4">My Life's Accomplishments</h5>
         </div>
-        <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
-                <h5>Component-Based Software Design</h5>
-            </div>
-            <div class="col text-center course">
-                <h5>Database Management Systems</h5>
-            </div>
+        <div>
+            <h2>EDUCATION</h2>
+            Temple University College of Science and Technology Bachelors of Science in Information Technology-MAY 2022<br>
+            The Pennsylvania State University College of Liberal Arts Bachelors of Arts in Criminology-MAY 2018<br>
+            <br>
+            <h2>TECHNICAL SKILLS</h2>
+            •	Python, Java, C#<br>
+            •	HTML, CSS, Javascript<br>
+            •	Git, SQL<br>
+            <br>
+            <h2>HACKATHONS</h2>
+            <h4>Winner - Capital One Challenge HACKPSU-MAR 2016</h4>
+            ● Developed a prototype of secure ATM transactions by using smart phone and Google API<br>
+            ● Competed amongst 50+ other teams and worked with a team of four, for 48 hours straight to learn new technology and create a winning solution<br>
+            <br>
+            <h2>WORK EXPERIENCE</h2>
+            <h4>Olive Garden-Server-Montgomeryville PA-MAY 2019</h4>
+            ● Provide high quality customer service through serving people and accommodating towards their needs<br>
+            ● Coordinate with other team members by hosting, cooking, running food and bussing tables in a fast paced setting<br>
+            <br>
+            <br>
         </div>
         <div class="row mt-5 next">
-            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Contact"></i></a> </div>
+            <a href="#contact" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Contact"></i>
+            </a>
+        </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
@@ -233,12 +280,18 @@
             <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
-                    data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
-                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
-                    data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+            <a href="mailto:maishaislam@gmail.com" class="col mx-3">
+                <i class="fas fa-envelope-square"
+                   data-toggle="tooltip" data-placement="top" title="Email"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/maishaislam11667/" class="col mx-3">
+                <i class="fab fa-linkedin"
+                   data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+            </a>
+            <a href="https://github.com/islamm12" class="col mx-3">
+                <i class="fab fa-github-square"
+                   data-toggle="tooltip" data-placement="top" title="Github"></i>
+            </a>
 
         </div>
         <div class="row mt-5">
@@ -248,13 +301,13 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
     <script>
         $(function () {
